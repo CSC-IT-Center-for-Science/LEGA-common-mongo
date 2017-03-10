@@ -80,7 +80,8 @@
                     <generateGitPropertiesFile>true</generateGitPropertiesFile>
                     <generateGitPropertiesFilename>src/main/resources/common-mongo.properties
                     </generateGitPropertiesFilename>
-                    <failOnNoGitDirectory>false</failOnNoGitDirectory>
+		    <failOnNoGitDirectory>false</failOnNoGitDirectory>
+		    <failOnUnableToExtractRepoInfo>false</failOnUnableToExtractRepoInfo>
                     <abbrevLength>7</abbrevLength>
                     <gitDescribe>
                         <skip>false</skip>
